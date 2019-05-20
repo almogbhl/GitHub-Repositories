@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/almogbhl/GitHub-Repositories/precache-manifest.fa7eb28dc24b912dfdf98ddcb5747d58.js"
+  "/GitHub-Repositories/precache-manifest.81880fd2e1f41bb4743a5ee402c5c643.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/almogbhl/GitHub-Repositories/index.html", {
+workbox.routing.registerNavigationRoute("/GitHub-Repositories/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
